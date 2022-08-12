@@ -3,6 +3,8 @@ Tool to deploy rpm and msi packages using Salt
 
 Tool to deploy rpm and msi packages using Salt This tool uses Salt to deploy rpm and msi packages. There is a wrapper script that needs to be called with the environment name, product name and the associated version that needs to be deployed. It will go ahead and uninstall the older version and install the specified version and start the corresponding service
 
+CompanyName and CompanyNameID needs to be replaced with appropriate ones
+
 Deployment
 
 python scripts/Wrapper.py -l QAEnv -c WindowsAppB -v 3.0.14.54 
